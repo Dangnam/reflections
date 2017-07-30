@@ -1,0 +1,77 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+It helped troubleshooting faster. 
+Did not have to look at each and every line for the bugs.
+Looking at two different versions of the document helped to 
+see what changed and what line introduced bug in the code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+Having easy access to the entire history of a file will help you see the number and amount of changes you made. 
+You can easily go back to one of the previous versions, if you think that version was better.
+side by side comparision of different versions of code will help you identify bugs.
+Saves time in troubleshooting bugs.
+    
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+Pros:
+Commits will be smaller
+Easier to manage.
+Will be at logical points.
+History will be uncluttered
+
+Cons:
+Easier to forget to commit at desired checkpoints.
+Operator error
+Too small or too big of commits
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems like Git allow saving multiple files in one commit because 
+so that multiple components of a project can be saved together.
+Google docs does not work that way.
+
+Notes:
+Installed Git.
+download file. It is called Clone repository, because we are not downloading just
+the file but its history as well.
+To do that go to Gitbash and type git clone <repo name> 
+'git log' to list all the commits made to that repo.
+'git diff <new commit id> <previous commit id>
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+'git log' to list all the commits made to that repo.
+'git diff <new commit id> <previous commit id> ; to view differences between two versions
+lines in red are the removals, and green ones are added. 
+These commands help you to see changes between different versions of a code document.
+
+How might using version control make you more confident to make changes that
+could break something?
+Version control saves previous versions of code and we are able to go back if need be. 
+This makes it easier for coder to make changes and help take risk, and not worry about breaking the code.
+
+
+
+Git Repository: collection of files which are tracked by Git as a cohesive unit.
+clone: it takes a repository and creates a new copy.
+
+Log command: relationship to different commands
+log operates on commit command.
+
+git checkout: similar to restore previous version. when you checkout a commit,
+all the previous commits will be superseded.
+
+    Fill in your answer here
+Because, version control allows you to go back to previous commits and even checkout or restore
+to earlier version. This gives opportunity to correct any bugs that are introduced during change.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+I would like to use it when I am writing large codes. Because version control allows you 
+flexibility to change and experiment with the codes without worrying about breaking it.
